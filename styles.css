@@ -1,0 +1,110 @@
+*{
+    background-color: black;
+     padding:0 2em;  
+  }
+  main{
+    margin: 5em;
+  }
+  
+  #image{
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border: 15px solid white;
+    padding: 1em;
+  }
+  figure>img {
+      height: 100%;
+      width: auto;
+      vertical-align: bottom; /* <-- fix the vertical gap */
+  }
+  
+  h1{
+    font-size: 45px;
+  }
+  
+  h4,figcaption{
+    font-size: 17px;
+  }
+  figcaption{
+    padding-top: 30px;
+  }
+  .info>p{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .quote{ 
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  h1,h4,figcaption{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+  }
+  .info>ul>li>strong{
+    color: yellow;
+  }
+  .info>ul>li{
+    padding: 1.7em;
+  }
+  
+  p,li{
+    color: white;
+    font-size: 1em;
+  }
+  
+  .info,footer{
+    font-family: Courier;
+  }
+  
+  a{
+    color: #39FF14;
+    text-decoration: none;
+  }
+  footer>p{
+    padding: 1em;
+  }
+  .info{
+    margin: 150px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+  }
+  footer{
+    margin: 150px;
+    margin-top: 50px;
+  }
+  
+  h1 {
+          font-family: monospace;
+          overflow: hidden;/* Ensures the content is not revealed until the animation */
+          border-right: .17em solid yellow;/* The typewriter cursor */
+          white-space: nowrap;/* Keeps the content on a single line */
+          margin: 0 auto;/* Gives that scrolling effect as the typing happens */
+          letter-spacing: .17em;/* Adjust as needed */
+          animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+        }
+         @keyframes typing {
+          from {
+            width: 0
+          }
+          to {
+            width: 100%
+          }
+        }
+        @keyframes blinking-cursor {
+          from,
+          to {
+            border-color: transparent
+          }
+          50% {
+            border-color: yellow;
+          }
+        }
+        
+    
